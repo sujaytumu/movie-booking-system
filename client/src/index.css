@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #7b2cbf;
+    --color-primary-dull: #a663cc;
+}
+
+*{
+    font-family: "Outfit", sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: #787777 #1e1e1e;
+}
+
+body{
+    color: #fff;
+    background-color: #09090B;
+}
+
+.no-scrollbar {
+    scrollbar-width: none;
+}
+
+::-webkit-inner-spin-button,::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); 
+}
